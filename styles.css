@@ -314,6 +314,20 @@ background:color-mix(in srgb, var(--accent) 12%, transparent);
 .contactTitle{font-weight:900}
 .contactText{color:var(--muted); margin-top:6px}
 
+.contactRow{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.contactIcon{
+  width:18px;
+  height:18px;
+  object-fit:contain;
+  flex:0 0 auto;
+  opacity:.9;
+}
+
 .footer{
   border-top:1px solid var(--line);
   padding:18px;
@@ -357,6 +371,7 @@ background:color-mix(in srgb, var(--accent) 12%, transparent);
   .title{font-size:40px}
 
 }
+
 
 
 
