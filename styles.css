@@ -6,7 +6,7 @@
   --muted:#9ca3af;
   --line:rgba(255,255,255,.08);
   --accent:#dc2626;
-  --accent2:#f97316;
+ --accent2:#991b1b;
   --shadow:0 18px 60px rgba(0,0,0,.45);
   --radius:16px;
 }
@@ -27,12 +27,12 @@
 }
 
 .avatarImg{
-  width:260px;
-  max-width:100%;
-  height:auto;
-  border-radius:18px;
+  width:86px;
+  height:86px;
+  border-radius:50%;
   object-fit:cover;
-  border:1px solid var(--line);
+  border:2px solid color-mix(in srgb, var(--accent) 70%, transparent);
+  flex:0 0 auto;
   display:block;
 }
 
@@ -176,13 +176,13 @@ li{margin:10px 0}
 
 .card{
   border:1px solid var(--line);
-  background: linear-gradient(180deg, rgba(17,24,39,.85), rgba(15,23,42,.72));
+ background: linear-gradient(180deg, rgba(20,20,24,.88), rgba(10,10,14,.78));
   border-radius: var(--radius);
   padding:14px;
   box-shadow: var(--shadow);
 }
 
-.cardTop{display:flex; gap:12px; align-items:flex-start}
+.cardTop{display:flex; gap:12px; align-items:center}
 .cardName{font-weight:900}
 .cardMeta{color:var(--muted); font-size:13px; margin-top:2px}
 
@@ -352,6 +352,7 @@ background:color-mix(in srgb, var(--accent) 12%, transparent);
   .title{font-size:40px}
 
 }
+
 
 
 
