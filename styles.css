@@ -5,10 +5,35 @@
   --text:#e5e7eb;
   --muted:#9ca3af;
   --line:rgba(255,255,255,.08);
-  --accent:#22d3ee;
-  --accent2:#60a5fa;
+  --accent:#dc2626;
+  --accent2:#f97316;
   --shadow:0 18px 60px rgba(0,0,0,.45);
   --radius:16px;
+}
+
+.thumbImg{
+  height:130px;
+  border-radius: var(--radius);
+  border:1px solid rgba(255,255,255,.12);
+  overflow:hidden;
+  margin-bottom:12px;
+  background: rgba(0,0,0,.22);
+}
+
+.thumbImg img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+}
+
+.avatarImg{
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  border:1px solid var(--line);
+  object-fit: cover;
+  display:block;
 }
 
 *{box-sizing:border-box}
@@ -345,4 +370,5 @@ li{margin:10px 0}
   .nav{display:none}
   .menuBtn{display:inline-flex}
   .title{font-size:40px}
+
 }
